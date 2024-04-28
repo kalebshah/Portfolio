@@ -1,0 +1,51 @@
+/* General styles shared across project pages */
+body {
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 90vh;
+    background: #f4f4f4;
+}
+
+.card {
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    width: 70%;
+    margin-top: 5%;
+    text-align: center;
+    border: 1px solid #fff;
+}
+
+h1 {
+    color: rgb(53,53,53);
+    margin-bottom: 20px;
+}
+
+p {
+    margin-bottom: 20px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto 20px;
+}
+
+/* Responsive styles for project pages */
+@media (max-width: 768px) {
+    .card {
+        width: 90%;
+        padding: 10px;
+    }
+
+    h1 {
+        font-size: 1.5em;
+    }
+}
