@@ -380,6 +380,44 @@ article .icon {
   border-color: rgb(163, 163, 163);
 }
 
+/* Scrolling */
+
+.projects-scroll-container::-webkit-scrollbar {
+  height: 8px; /* Set height of the scrollbar */
+  background-color: rgba(0,0,0,0.1); /* Light background on the scrollbar track */
+}
+
+.projects-scroll-container::-webkit-scrollbar-thumb {
+  background-color: darkgrey; /* Dark scrollbar handle */
+  border-radius: 10px;
+}
+
+.projects-scroll-container::-webkit-scrollbar-thumb:hover {
+  background: #555; /* Darker handle on hover */
+}
+
+.scroll-arrow {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 30px;
+  height: 30px;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+/* .left-arrow {
+  left: 10px;
+  background-image: url('/assets/left-arrow-icon.png');
+} */
+
+.scroll-arrow {
+  right: 10px;
+  background-image: url('assets/right-arrow-icon.png');
+}
+
+
 /* CONTACT */
 
 #contact {

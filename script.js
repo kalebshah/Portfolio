@@ -4,3 +4,8 @@ function toggleMenu() {
   menu.classList.toggle("open");
   icon.classList.toggle("open");
 }
+
+function scrollRight() {
+  const container = document.querySelector('.projects-scroll-container');
+  container.scrollBy({ left: 300, behavior: 'smooth' }); // Adjust the pixel value as needed
+}

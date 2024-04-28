@@ -11,6 +11,31 @@
       height: fit-content;
     }
   }
+
+  @media screen and (min-width: 1200px) {
+    .projects-scroll-container {
+        display: flex; /* Ensures the containers are flex items */
+        flex-wrap: nowrap; /* Prevents the containers from wrapping */
+        overflow-x: auto; /* Enables horizontal scrolling */
+        overflow-y: hidden; /* Prevents vertical scrolling */
+        -webkit-overflow-scrolling: touch; /* Improves scrolling on touch devices */
+        scrollbar-width: thin; /* Optional: makes the scrollbar thinner */
+        scrollbar-color: #888 #f1f1f1; /* Optional: styles the scrollbar (Firefox) */
+    }
+
+    .scroll-arrow {
+      display: flex; /* Only display arrows for wide screens */
+  }
+
+    .projects-scroll-container .details-container {
+        flex: 0 0 auto; /* Prevents flex items from growing or shrinking */
+        width: 300px; /* Or any fixed width depending on your design */
+        margin-right: 20px; /* Adds space between containers */
+    }
+
+}
+
+  
   
   @media screen and (max-width: 1200px) {
     #desktop-nav {
