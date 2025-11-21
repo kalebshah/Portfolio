@@ -121,18 +121,18 @@ export const blogPosts = [
   },
   {
     id: 8,
-    title: "Scikit-Learn & TensorFlow: The ML Gateway Drugs",
+    title: "Scikit-Learn & Pytorch: The ML Gateway Drugs",
     excerpt: "Forget the hype. If you want to actually learn ML, get your hands dirty with these two libraries.",
     date: "2025-10-01",
     readTime: "8 min read",
-    tags: ["Tech", "Machine Learning", "Python"],
-    image: "/assets/project-3-kaleb.png",
+    image: "/assets/scipy-pytorch.png",
+    tags: ["Machine Learning", "Python", "Education"],
     content: `
-      Everyone wants to jump straight to LLMs and Transformers. 
-      But you can't run if you can't walk. Scikit-Learn is the best place to start. 
+      Everyone wants to build the next GPT-4. Nobody wants to learn how a gradient descent optimizer actually works.
+ Scikit-Learn is the best place to start. 
       It teaches you the fundamentals of regression, classification, and clustering without the black-box magic.
       
-      Then comes TensorFlow (or PyTorch, I'm not dogmatic). 
+      Then comes Pytorch (or TensorFlow, I'm not dogmatic). 
       Building a neural network from scratch using these libraries gives you an intuition that reading papers just can't match. 
       They are the best hands-on way to truly understand the AI revolution.
     `
