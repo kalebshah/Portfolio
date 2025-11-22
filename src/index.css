@@ -4,9 +4,12 @@
   /* Light Mode Variables */
   --bg-color: #ffffff;
   --text-color: #1a1a1a;
-  --primary-color: #3b82f6; /* Blue-500 */
-  --secondary-color: #64748b; /* Slate-500 */
-  --accent-color: #f59e0b; /* Amber-500 */
+  --primary-color: #3b82f6;
+  /* Blue-500 */
+  --secondary-color: #64748b;
+  /* Slate-500 */
+  --accent-color: #f59e0b;
+  /* Amber-500 */
   --card-bg: #f8fafc;
   --border-color: #e2e8f0;
   --nav-bg: rgba(255, 255, 255, 0.8);
@@ -16,12 +19,17 @@
 
 [data-theme='dark'] {
   /* Dark Mode Variables */
-  --bg-color: #0f172a; /* Slate-900 */
+  --bg-color: #0f172a;
+  /* Slate-900 */
   --text-color: #f8fafc;
-  --primary-color: #60a5fa; /* Blue-400 */
-  --secondary-color: #94a3b8; /* Slate-400 */
-  --accent-color: #fbbf24; /* Amber-400 */
-  --card-bg: #1e293b; /* Slate-800 */
+  --primary-color: #60a5fa;
+  /* Blue-400 */
+  --secondary-color: #94a3b8;
+  /* Slate-400 */
+  --accent-color: #fbbf24;
+  /* Amber-400 */
+  --card-bg: #1e293b;
+  /* Slate-800 */
   --border-color: #334155;
   --nav-bg: rgba(15, 23, 42, 0.8);
 }
@@ -83,6 +91,7 @@ button {
   font-weight: 600;
   transition: all 0.3s ease;
   border: 2px solid var(--text-color);
+  color: var(--text-color);
 }
 
 .btn:hover {

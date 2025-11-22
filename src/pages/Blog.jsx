@@ -67,6 +67,9 @@ const Blog = () => {
                             onClick={() => navigate(`/blog/${post.id}`)}
                             style={{ cursor: 'pointer' }}
                         >
+                            <div className="blog-card-image-container">
+                                <img src={post.image} alt={post.title} className="blog-card-img" />
+                            </div>
                             <div className="blog-card-content">
                                 <div className="blog-meta">
                                     <span className="blog-date">

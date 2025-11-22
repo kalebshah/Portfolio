@@ -74,7 +74,7 @@ export const blogPosts = [
     date: "2025-11-05",
     readTime: "5 min read",
     tags: ["Coding", "AI", "Career"],
-    image: "/assets/experience.png",
+    image: "/assets/copilot-image.jpg",
     content: `
       I learned to code when "Googling the error" was a skill, not a prompt. 
       I spent hours banging my head against the wall, reading documentation, and scouring Stack Overflow threads from 2013.
